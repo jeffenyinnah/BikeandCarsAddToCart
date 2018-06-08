@@ -1,0 +1,220 @@
+
+body, html{
+	max-width: 100%;
+	background-color: #fff;
+	font-family: "Lucida Sans", sans-serif;
+}
+
+* {
+	box-sizing: border-box;
+}
+.container-fluid {
+	padding:15px;
+}
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+[class*="col-"] {
+	float: left;
+	padding: 15px;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 30px;
+}
+h3 {
+	font-weight: bold;
+	font-size: 35px;
+}
+/*img {
+	width: 100%;
+}*/
+.img-thumbnail {
+	max-width: 100%;
+	height:auto;
+	border: solid 5px;
+}
+
+.badge-notify{
+    background:red;
+    position:relative;
+    top: -20px;
+    right: 10px;
+  }
+  .my-cart-icon-affix {
+    position: fixed;
+    z-index: 999;
+  }
+  #mainNav {
+  	position: fixed;
+  	width: 100%;
+  	color: #fff;
+  	font-weight: bold;
+  	height: auto;
+  }
+
+
+  #main {
+  	position: relative;
+  	font-weight: bold;
+
+  }
+
+#header {
+	text-align: center;
+	background-color: brown;
+	bottom: 0;
+	margin: 0;
+	border: solid 0.5px;
+	border-color: ;
+	color: white;
+	
+}
+
+.page-header {
+	padding: 20px;
+	text-align: center;
+}
+.row {
+	width: 100%;
+}
+
+#content {
+	
+	top:0;
+}
+#mie {
+	padding-top: 20px;
+	margin: 20px 20px 20px 20px;
+	padding-bottom: 20px;
+	padding-left: 100px;
+	padding-right: 20px;
+}
+
+#mie h3 {
+	text-align: center;
+	font-size: 32px;
+}
+#mie p{
+	text-align: center;
+	font-size: 20px;
+}
+
+#imgGal {
+	text-align: center;
+	padding:20px;
+}
+#imgGal h4 {
+	font-size: 20px;
+}
+
+.col-md-4 {
+	padding-bottom: 20px;
+}
+
+#mainFooter p {
+width: 100%;
+}
+#mainFooter {
+width: 100%;
+position: absolute;
+}
+
+
+#cars,#car1,#car2,#car3,#car4,#car5{
+	display: none;
+}
+.row #cars,#car1,#car2,#car3,#car4,#car5{
+	display: none;
+}
+
+#bike,#bike1,#bike2,#bike3,#bike4,#bike5{
+	display: none;
+	font-size: 15px;
+	padding: 10px;
+
+}
+
+
+/*===========================Mobile=====================*/
+[class*="col-"] {
+	width: 100%;
+}
+
+
+/*===========================Tablet=====================*/
+@media only screen and (min-width: 600px) {
+	.col-s-1 {width: 8.33%;}
+	.col-s-2 {width: 16.66%;}
+	.col-s-3 {width: 25%;}
+	.col-s-4 {width: 33.33%;}
+	.col-s-5 {width: 41.66%;}
+	.col-s-6 {width: 50%;}
+	.col-s-7 {width: 58.33%;}
+	.col-s-8 {width: 66.66%;}
+	.col-s-9 {width: 75%;}
+	.col-s-10 {width: 83.33%;}
+	.col-s-11 {width: 91.66%;}
+	.col-s-12 {width: 100%;}
+	.img-responsive {
+		max-width: 100%;
+		height: auto;
+		padding-left: 25px;
+		padding: 15px;
+	}
+	/*.row {
+		  padding-left: 20px;
+		  padding-right: 20px;
+	}*/
+	
+	.col-md-4 {
+		padding: 0 15px 0 15px;
+		background-color: #fff;
+
+	}
+	#content {
+		padding-left: 25px;
+		padding-right: 25px;
+		width:100%;
+	}
+	.img-thumbnail {
+		max-width:359px;
+		height: auto;
+	}
+	
+	}
+	#mie h3, p{
+	text-align: center;
+	font-size: 15px;
+
+}
+
+#mainNav a.navbar-brand{
+	float: left;
+	align-content: left;
+}
+
+
+
+span.navbar-toggler-icon{
+	float: right;
+}
+
+/*===========================Desktop=====================*/
+@media only screen and (min-width: 768px) {
+	.col-1 {width: 8.33%;}
+	.col-2 {width: 16.66%;}
+	.col-3 {width: 25%;}
+	.col-4 {width: 33.33%;}
+	.col-5 {width: 41.66%;}
+	.col-6 {width: 50%;}
+	.col-7 {width: 58.33%;}
+	.col-8 {width: 66.66%;}
+	.col-9 {width: 75%;}
+	.col-10 {width: 83.33%;}
+	.col-11 {width: 91.66%;}
+	.col-12 {width: 100%;}
+}
